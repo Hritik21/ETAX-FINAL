@@ -1,0 +1,49 @@
+<html>
+<head>
+<head>
+<link rel="stylesheet type="text/css" href="a.css">
+
+
+</head>
+ <ul>
+
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="register.html">REGISTER</a></li>
+  <li><a href="login.html">LOG IN</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+  <li><a href="incometax.html">MORE ABOUT INCOME TAX</a></li>
+</ul> 
+<HR>
+<center><h1>REGISTER FORM- Individual</h1>
+<h4><i><b>Step 1: Enter Basic Details</b></i></h4>   <h5>Step 2 : Registration Form</h5>    <h5>Step 3 : Registration Successful</h5>
+<HR>
+<form name="value">
+ <pre>
+<div class="required">User ID            : <input type="text" name="mname" required pattern="^[a-zA-Z0-9]{6,}$" value="" />
+</div>
+<div class="required">Password           : <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" /> 
+</div>
+<div class="required">Confirm Password   : <input type="password" name="password" id="password" value="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" /> 
+</div>
+<div>Security Question  : <select>
+
+<option value="Individual">What Is Your Favourite Sports?</option>
+<option value="Devloper">What Is Your Maiden Name?</option>
+<option value="HUF">Whats Your School?</option>
+<option value="Other">What Is Your Pet Name?</option>
+<option value="Agency">What Is Your Favourite Book?</option> 
+<option value="CA">What Is Your Childhood Name?</option>
+<option value="Deductor and Collector">What Is Your Best Freind Name?</option>
+
+</select>
+</div>
+<div class="required">Security Answer    : <input type="text" name="lname" value="" required pattern="^[a-zA-Z0-9]{1,}$" />
+</div>
+
+ </pre>
+    
+  <input type="submit" value="Continue" formaction="indstep3.html" /> 
+ </form>
+</body>
+</html>

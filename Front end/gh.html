@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet type="text/css" href="a.css">
+
+</head>
+<body>
+ <ul>
+  
+  <li><a href="index.html">LOG OUT</a></li>
+  <li><a href="profile.html">Exit Calculator</a></li>
+</ul> <center><hr>
+<h1> Income Tax Calculator </h1>
+<hr></center>
+<form name="form" action="CalculateTax" method="post">  
+
+ Select User Type : 
+	
+         <select name="usertype" required>
+  <option value="">---Select An Option </option> 
+ <option value="">Individual</option>
+ <option value="">Hindu Undivided Family(HUF)</option> 
+ <option value="">Senior Citizen(Age Between 60-80</option>
+   <option value="">Senior Citizen(Age Above 80)</option>
+	</select>
+
+  <pre>
+<div class="required">Age         : <input type="text" name="age" required pattern="^[0-9]{1,3}$" value="" size="20" />
+
+<div class="required">Salary(Per Annum)   :   <input type="text" name="salary" required pattern="^[0-9]{1,}$" value="" />  <input type="file" name="payslip" accept="doc/*"> 
+ 
+Residential Status : <input type="radio" name="resident" checked> Resident <input type="radio" name="resident"/> Non Resident
+   
+FDR(If Having Then Fill The Field)            : <input type="text" name="fdr"  pattern="^[0-9]{1,}$" value="" />    <input type="file" name="fdr" accept="doc/*">
+
+LifeInsurance( For Anyone In Family)    :    <input type="text" name="lic"  pattern="^[a-zA-Z0-9]{1,}$" value="" />   <input type="file" name="lic" accept="doc/*">
+
+Provident Fund        :  <input type="text" name="pf" required pattern="^[0-9]{1,}$" value="" />    <input type="file" name="pf" accept="doc/*">
+
+Person With Disability(PWD)  :  <input type="radio" name="pwd" checked> No <input type="radio" name="resident"/> Yes
+
+Senior Citizen Saving Scheme  :  <input type="radio" name="scheme" checked> No <input type="radio" name="resident"/> Yes  
+
+Amount(If Having Senior Citizen Scheme) :  <input type="text" name="amount" pattern="^[0-9]{1,}$" value="" />   <input type="file" name="amount" accept="doc/*">
+
+Amount For Education Loan  :  <input type="text" name="loan" pattern="^[0-9]{1,}$" value="" />    <input type="file" name="loan" accept="doc/*">
+
+TDS Amount(If Having)   :   <input type="text" name="tds" pattern="^[0-9]{1,}$" value="" />    <input type="file" name="tds" accept="doc/*">
+
+
+<input type="submit" value="submit"/>
+</pre>
+    </form>
+</body>
+</html> 

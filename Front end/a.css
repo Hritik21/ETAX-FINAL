@@ -1,0 +1,77 @@
+body {background-image : url("bg.jpg") ;  background-attachment: fixed;font-family : Arial; font-size : 18px; color : white; margin-top : 75px; font-size : 22px}
+.link {color : magenta }
+.footer {
+    font-size:18px;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+	position: relative;
+	
+}
+.button {
+    background-color: rgba(86, 3, 25, 0.5);  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.active {
+    background-color: white);
+    color: purple;
+}
+.button:hover {
+    background-color: white;
+    color: purple;
+}
+H1 {color:white }
+form {color : white}
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size : 15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(86, 3, 25, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a { 
+    display: block;
+    color: white;
+    background-color: rgba(86, 3, 25, 0.7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active { 
+    display: block;
+    color: blue;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: blue;
+}
+/* Required field */
+.required:before {
+	content: '*';
+	color: #EF5F5F;
+}

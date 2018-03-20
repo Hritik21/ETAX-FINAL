@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet type="text/css" href="a.css">
+
+
+</head>
+<ul>
+
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="register.html">REGISTER</a></li>
+  <li><a href="login.html">LOG IN</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+  <li><a href="incometax.html">MORE ABOUT INCOME TAX</a></li>
+</ul> 
+<HR>
+<center><h1>REGISTER FORM- Individual</h1>
+<h4><i><b>Step 1: Enter Basic Details</b></i></h4>   <h5>Step 2 : Registration Form</h5>    <h5>Step 3 : Registration Successful</h5>
+<HR>
+<body>
+    <form name="value" action="EtaxProcessor">
+  <pre>
+
+   
+   
+   
+		
+
+<div class="required">First Name         : <input type="text" name="fname" value="" required pattern="^[a-zA-Z]{1,12}$"/ title="fgg">
+</div>
+<div>  Middle Name         : <input type="text" name="mname" pattern="^[a-zA-Z]{1,12}$" value="" />
+</div>
+<div class="required">Last Name          : <input type="text" name="lname" value="" required pattern="^[a-zA-Z]{1,12}$" />
+</div>
+<div class="required">PAN                : <input type="text" name="pan" value="" required pattern="(?=.*[0-9])(?=.*[A-Z]).{10}" title="PAN" />
+</div>
+<div class="required">Date Of Birth: <input type="date" name="dob" value=""/>
+</div>
+<div class="required">Residential Status : <input type="radio" name="resident"checked> Resident <input type="radio" name="resident"/> Non Resident
+</div>   
+   </pre> 
+<input type="submit" formaction="indstep2.html" value="Continue" /> 
+ </form>
+ 
+</body>
+</html>
